@@ -215,7 +215,6 @@ ul.main-ul li:hover>a {
 
 /* header section finished here */
 
-
 .gallery-imgs {
     padding: 30px;
 }
@@ -233,7 +232,7 @@ ul.main-ul li:hover>a {
 }
 
 .head-image {
-    background-image: url(/images/MicrosoftTeams-image.png);
+    background-image: url(../images/MicrosoftTeams-image.png);
     background-size: cover;
     width: 750px;
     height: 450px;
@@ -263,18 +262,18 @@ ul.main-ul li:hover>a {
     display: inline-block;
     font-size: 16px;
     opacity: 1;
-    transition: 0,9s;
+    transition: 0, 9s;
 }
 
-  .gallery-button:hover {
-      cursor: pointer;
-      opacity: 0.6;
-  }
+.gallery-button:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
 
-  .gallery-button:active {
+.gallery-button:active {
     background-color: #9eb670;
     transform: translateY(3px);
-  }
+}
 
 .img-overlay {
     position: relative;
@@ -287,20 +286,20 @@ ul.main-ul li:hover>a {
     line-height: 50px;
 }
 
-    .img-overlay p {
-        position: relative;
-        top: 25%;
-        text-align: center;
-        font-family: 'Source Code Pro', monospace;
-        font-size: 25px;
-        color: #fff;
-    }
+.img-overlay p {
+    position: relative;
+    top: 25%;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 25px;
+    color: #fff;
+}
 
-    .img-overlay:hover {
-        opacity: 1;
-        cursor: pointer;
-    }
-    
+.img-overlay:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
 .audio {
     position: relative;
     width: 550px;
@@ -310,15 +309,14 @@ ul.main-ul li:hover>a {
     align-items: flex-start;
 }
 
-    .image1 {
-        background-image: url(/images/audio1.webp);
-        background-size: cover;
-        width: 550px;
-        height: 350px;
-        border-radius: 5px;
-        border: groove 15px #511ab7c5;
-        
-    }
+.image1 {
+    background-image: url(../images/audio1.webp);
+    background-size: cover;
+    width: 550px;
+    height: 350px;
+    border-radius: 5px;
+    border: groove 15px #511ab7c5;
+}
 
 .trimming {
     position: relative;
@@ -331,34 +329,33 @@ ul.main-ul li:hover>a {
     justify-content: right;
 }
 
-    .image2 {
-        width: 550px;
-        height: 350px;
-        border-radius: 5px;
-        border: groove 15px #511ab7c5;
-        background-image: url(/images/trimvideos.webp);
-        background-size: cover;
-    }
-
+.image2 {
+    width: 550px;
+    height: 350px;
+    border-radius: 5px;
+    border: groove 15px #511ab7c5;
+    background-image: url(../images/trimvideos.webp);
+    background-size: cover;
+}
 
 .vis-eff {
     position: relative;
     display: flex;
     justify-content: left;
-    align-items: flex-start; 
+    align-items: flex-start;
     height: 400px;
     max-width: 400px;
 }
 
-    .image3 {
-        position: absolute;
-        width: 550px;
-        height: 350px;
-        border-radius: 5px;
-        border: groove 15px #511ab7c5;
-        background-image: url(/images/visual-effects2.webp);
-        background-size: cover;
-    }
+.image3 {
+    position: absolute;
+    width: 550px;
+    height: 350px;
+    border-radius: 5px;
+    border: groove 15px #511ab7c5;
+    background-image: url(../images/visual-effects2.webp);
+    background-size: cover;
+}
 
 .main-footer {
     display: flex;
@@ -368,45 +365,45 @@ ul.main-ul li:hover>a {
     color: white;
     padding: .5em 1em;
 }
-    
-    .footer-logo {
-        text-align: center;
-        font-size: 2.2em;
-        font-family: 'Righteous', cursive;
-        font-weight: normal;
-        color: white;
-    }
-    
-    .footer-nav img {
-        width: 40px;
-        height: 40px;
-    }
-    
-    .footer-nav {
-        transition: 0.2s ease-in-out;
-        position: relative;
-        list-style: none;
-        display: flex;
-    }
-    
-    .footer-nav:hover>li {
-        transform: scale(0.95);
-        filter: blur(2px);
-    }
-    
-    .footer-nav li {
-        transition: 0.2s ease-in-out;
-        border-radius: 10px;
-        place-items: center;
-        cursor: pointer;
-        display: grid;
-        margin: auto;
-        margin: 10px 5px;
-        position: relative;
-        padding: 0 .5em;
-    }
-    
-    .footer-nav li:hover {
-        filter: blur(0px);
-        transform: scale(1.2);
-    }
+
+.footer-logo {
+    text-align: center;
+    font-size: 2.2em;
+    font-family: 'Righteous', cursive;
+    font-weight: normal;
+    color: white;
+}
+
+.footer-nav img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-nav {
+    transition: 0.2s ease-in-out;
+    position: relative;
+    list-style: none;
+    display: flex;
+}
+
+.footer-nav:hover>li {
+    transform: scale(0.95);
+    filter: blur(2px);
+}
+
+.footer-nav li {
+    transition: 0.2s ease-in-out;
+    border-radius: 10px;
+    place-items: center;
+    cursor: pointer;
+    display: grid;
+    margin: auto;
+    margin: 10px 5px;
+    position: relative;
+    padding: 0 .5em;
+}
+
+.footer-nav li:hover {
+    filter: blur(0px);
+    transform: scale(1.2);
+}
